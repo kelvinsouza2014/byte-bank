@@ -47,7 +47,7 @@ elementoFormulario.addEventListener("submit", function (event) {
   // Exibir o conteúdo de texto do elemento 'saldo'.
   elementoSaldo.textContent = saldo;
 
-  // Criação de objeto de tranação.
+  // Criação de objeto de transação.
   const novaTransacao = {
     tipoTransacao: tipoTransacao,
     valor: valor,

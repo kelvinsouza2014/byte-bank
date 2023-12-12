@@ -1,0 +1,16 @@
+{
+  // Opções do compilador
+  "compilerOptions": {
+    // Versão do JS que será compilado.
+    "target": "ES2022",
+    // Diretório de output (saída, o local onde será gerado o arquivo compilado).
+    "outDir": "./dist/js/",
+    // Se o compilador identificar um erro TS, não seguir com a compilação.
+    "noEmitOnError": true
+  },
+  // As pastas onde o compilador irá buscar os arquivos TS para compilar para JS
+  "include": [
+    // Compilar todos os arquivos TS dentro da pasta 'src'
+    "./src/**/*"
+  ]
+}

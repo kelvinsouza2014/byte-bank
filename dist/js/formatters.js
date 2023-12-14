@@ -5,6 +5,7 @@ function formatarMoeda(valor) {
 }
 // FUNÇÃO PARA FORMATAR A DATA DO TIPO DATA PARA TEXTO (STRING)
 function formatarData(data) {
+    // FORMATAR O IDIOMA, DIA DA SEMANA, DIA, MÊS E ANO
     return data.toLocaleDateString("pt-br", {
         weekday: "long",
         day: "2-digit",

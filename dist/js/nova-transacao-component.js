@@ -43,5 +43,6 @@ elementoFormulario.addEventListener("submit", function (event) {
     };
     // VISUALIZAÇÃO DA OPERAÇÃO EM EXECUÇÃO NO CONSOLE 
     console.log(novaTransacao);
+    // RESETAR O FORMULÁRIO (APÓS TER COLETADO TODOS OS DADOS E VALIDAÇÕES)
     elementoFormulario.reset();
 });

@@ -1,3 +1,4 @@
+// TIPAGEM COM 'ENUM' DOS TIPOS DE TRANSAÇÃO
 var TipoTransacao;
 (function (TipoTransacao) {
     TipoTransacao["DEPOSITO"] = "Dep\u00F3sito";

@@ -11,5 +11,5 @@ if (elementoSaldo != null) {
 // SE A DATA DA TRANSAÇÃO NÃO FOR NULO, FORMATE A NOVA DATA 
 if (elementoDataAcesso != null) {
     const dataAcesso = new Date();
-    elementoDataAcesso.textContent = formatarData(dataAcesso);
+    elementoDataAcesso.textContent = formatarData(dataAcesso, FormatoData.DIA_SEMANA_DIA_MES_ANO);
 }
